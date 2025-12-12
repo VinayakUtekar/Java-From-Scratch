@@ -1,4 +1,4 @@
-package basic.InputOutput;
+package Basic.InputOutput;
 
 public class DirectInput {
     public static void main(String [] args){
