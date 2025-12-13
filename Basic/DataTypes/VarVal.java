@@ -6,5 +6,6 @@ public class VarVal {
         var b = 20.3333;
         var mul = a*b*3.555;
         System.out.println("Mul: " + mul);
+        System.out.format("Mul: %.2f", mul);
     }
 }
