@@ -2,7 +2,7 @@ package OOPS.Encapsulation;
 
 import java.util.Scanner;
 
-class Circle{
+public class Circle{
     //variable (instence variable)(state)
     double radius;
     //final double pi = 3.14;
@@ -27,7 +27,7 @@ class Circle{
         System.out.println(" CIRCUMFERENCE = " + res);
     }
 }
-class P4{
+public class P4{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         double radius = sc.nextDouble();
