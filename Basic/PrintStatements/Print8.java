@@ -1,6 +1,6 @@
-package OOPS.Encapsulation;
+package Basic.PrintStatements;
 
-class P8{
+public class Print8 {
     public static void main(String args[]){
         System.out.println(10);
         System.out.println(1.23);
