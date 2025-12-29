@@ -1,3 +1,5 @@
+package JavaWithDSA.Sorting;
+
 import java.util.*;
 
 public class MergeOverlappingIntgervals {
