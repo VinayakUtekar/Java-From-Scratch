@@ -2,7 +2,7 @@ package JavaWithDSA.Searching;
 
 import java.util.Scanner;
 
-public class LinearSearch {
+public class CountOneInBinary {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -10,12 +10,12 @@ public class LinearSearch {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        int target = sc.nextInt();
+        int count = 0;
         for (int i = 0; i < n; i++) {
-            if (arr[i] == target) {
-                System.out.println(i);
-                return;
+            if (arr[i] == 1) {
+                count++;
             }
         }
+        System.out.println("Number of 1's in the array: " + count);
     }
 }

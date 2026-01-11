@@ -1,8 +1,8 @@
 package JavaWithDSA.Searching;
 
-import java.util.Scanner;
+import java.util.*;
 
-public class LinearSearch {
+public class KthLargestElement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -10,11 +10,12 @@ public class LinearSearch {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        int target = sc.nextInt();
-        for (int i = 0; i < n; i++) {
-            if (arr[i] == target) {
-                System.out.println(i);
-                return;
+        int k = sc.nextInt();
+        Arrays.sort(arr);
+        for (int i = n-1; i >0; i--) {
+            if(k>0){
+                System.out.print(arr[i] + " ");
+                k--;
             }
         }
     }
